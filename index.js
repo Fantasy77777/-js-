@@ -53,9 +53,9 @@ const judgeType = (param) => {
  */
 const isBlank = (param) => {
   if (param === null || param === undefined || param === '' || param.length === 0) {
-    return false
+    return true
   }
-  return true
+  return false
 }
 
 /**
